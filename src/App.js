@@ -21,7 +21,7 @@ function App() {
         if (item.id === id) {
           return {
             ...item,
-            isDone: !item.done,
+            isDone: !item.isDone,
           };
         }
         return item;
